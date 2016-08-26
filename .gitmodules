@@ -1,0 +1,3 @@
+[submodule "deep-security-py"]
+	path = deep-security-py
+	url = https://github.com/deep-security/deep-security-py.git
