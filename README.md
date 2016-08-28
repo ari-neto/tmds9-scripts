@@ -12,7 +12,7 @@ https://github.com/deep-security/deep-security-py
 
 1.0
 
-## **Deep Seuciryt Manager Tested Version**
+## **Deep Security Manager Tested Version**
 
 9.6
 
