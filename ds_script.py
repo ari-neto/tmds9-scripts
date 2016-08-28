@@ -1,6 +1,7 @@
+#!/usr/bin/env python
+import sys
+sys.path.insert(0,'./deep-security-py')
 import deepsecurity
-deepsecurity.path.insert(0, './deep-security-py')
-
 
 mgr = deepsecurity.dsm.Manager(hostname='127.0.0.1', username='user', password='TrendMicro2016!', ignore_ssl_validation=True)
 mgr.sign_in()
@@ -21,7 +22,7 @@ try:
         overall_web_reputation_status = computer.overall_web_reputation_status
         overall_log_inspection_status = computer.overall_log_inspection_status
         print ("Computer_ID: %s" % computer_id)
-        print ("Display Name: %s" % name)
+        print ("Computer Name: %s" % name)
         print ("Platform: %s" % platform )
         print ("Get Recommended Rules: %s" % recommended_rules)
         print ("Overall Status: %s" % overall_status)
