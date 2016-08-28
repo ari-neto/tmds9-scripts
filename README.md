@@ -18,9 +18,12 @@ https://github.com/deep-security/deep-security-py
 
 # **Usage**
 
+~~~
 git clone https://github.com/ari-neto/tmds.git
-git submodule init
-
+cd tmds
+git submodule update --init 
+./ds_script.py
+~~~
 The script will list some informations about the DS Client:
 * Computer_ID
 * Computer Name
