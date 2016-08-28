@@ -50,8 +50,10 @@ Change
 
 You should to define your credenditals with API Access in the script (ds_script.py line 6), to enable API Access:
 
+~~~
 hostname=<your DSM IP or DSM FQDN>
 username=<DSM Username with API Access>
 password=<DSM Username password>
+~~~
 
-[API_Access](https://github.com/ari-neto/tmds/blob/master/images/api_access.png)
+![API_Access](https://github.com/ari-neto/tmds/blob/master/images/api_access.png)
