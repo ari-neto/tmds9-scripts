@@ -59,4 +59,7 @@ username=<DSM Username with API Access>
 password=<DSM Username password>
 ~~~
 
+# **API Support and API Rights**
+
+![API_Enabled](https://github.com/ari-neto/tmds/blob/master/images/api_enabled.png)
 ![API_Access](https://github.com/ari-neto/tmds/blob/master/images/api_access.png)
